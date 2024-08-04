@@ -17,5 +17,13 @@ Login Standard User
     Fill Username Details    ${user_info}
     Click Login Button
     Page Should Contain     Products
+    Logout Sauce
+
+Login Visual User
+    ${user_info}=    Get Credentials Data    visual
+    Fill Username Details    ${user_info}
+    Click Login Button
+    Page Should Contain     Products
+    Logout Sauce
 
 
