@@ -40,6 +40,9 @@ chromedriver --version
 webdrivermanager update chrome  
 ```
 
+##### Painel de disponibilidade do Chrome for testing
+Caso sua versao do Chrome não esteja disponível atraves do "webdrivermanager", acesse o painel de disponibilidade do [Chrome for testing](https://googlechromelabs.github.io/chrome-for-testing/).
+
 ##### Ferramentas opcionais:
 Você precisará de um IDE, aqui estão algumas opçes:
 
